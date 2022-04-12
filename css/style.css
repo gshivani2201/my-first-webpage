@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+}
+
+main{
+    font-size: 10px;
+}
+
+h2 {
+    background-color: #C2D076;
+    color: #001514;
+    font-size: 3em;
+    padding: 1em 0;
+    font-family: 'Playfair Display', serif;
+}
+
+h3 {
+    color: #001514;
+    font-size: 3em;
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    background-color: #001514;
+    font-size: 25px;
+    color: #C2D076;
+    text-align: center;
+    padding: 25px 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.intro {
+    width: 70em;
+    margin: 10em auto;
+    text-align: center;
+    color: #001514;
+}
+
+.box {
+    background-color: #C2D076;
+    padding: 5em;          /*height: 35em;*/
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+}
+
+.columns {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.column {
+    margin: 2em 12em;
+    width: 50%;
+    position: relative;
+}
+
+footer {
+    padding: 1em;
+    background-color: #001514;
+    color: #C2D076;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+
+@media (min-width: 100px) and (max-width: 700px) {
+
+    h2 {
+        font-size: 3em;
+        padding: 0.5em 0;
+    }
+    
+    h3 {
+        font-size: 2.5em;
+    }
+    
+    header {
+        font-size: 15px;
+        padding: 1px 0;
+        overflow: hidden;
+    }
+    
+    .intro {
+        width: 100%;
+        margin: 8em 0;
+        overflow: hidden;
+    }
+    
+    .box {
+        padding: 1em 1em;       
+        overflow: hidden;
+    }
+    
+    p {
+        padding: 0 2em;
+    }
+
+    .column p {
+        padding: 0;
+        font-size: 1.5em;
+    }
+    
+    .column {
+        margin: 2em 1em;
+    }
+    
+    footer {
+        padding: 2em;
+        font-size: 5px;
+        overflow: hidden;
+    }
+}
